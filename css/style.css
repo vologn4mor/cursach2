@@ -1,0 +1,332 @@
+.container{
+	max-width: 1144px;
+	margin: 0 auto;
+}
+.header_up {
+  display: flex;
+  justify-content: space-between;
+}
+
+.header_sign_up {
+  display: flex;
+}
+.header_main h1{
+	text-align: center;
+	font-size: 45px;
+	margin: 0 auto;
+}
+.header_main p{
+	max-width: 798px;
+	text-align: center;
+	font-size: 26px;
+	line-height: 40px;
+	margin: 0 auto;
+
+}
+.header_main{
+	margin-bottom: 144px;
+}
+*{
+	font-family: verdana;
+	font-weight: bold;
+}
+.header_main_menu{
+	display: flex;
+    justify-content: center;
+	text-align: center;
+	margin: 25px 0px;
+}
+a{
+	text-decoration: none;
+}
+.main_photo img{
+	width: 100%;
+}
+.header_up {
+	margin-top: 56px;
+	margin-bottom: 63px;
+}
+.header_sign_up div{
+	padding-left: 40px;
+	margin: auto 0;	
+}
+.header_sign_up a{
+	border: 1px solid white;
+	padding: 11px 27px;
+	border-radius: 50px;
+}
+.header_button_sign_in a{
+	color: black;
+}
+.header_button_sign_up a{
+	border: 1px solid #7F83FF;
+	color: white;
+	background-color: #7F83FF;
+}
+.header_main_menu div{
+	padding-left: 40px;
+}
+.header_main_menu a{
+	border: 1px solid black;
+	padding: 11px 27px;
+	border-radius: 8px;
+}
+.header_main_buttons_hire a{
+	border: 1px solid #4A4EDD;
+	color: white;
+	background-color: #4A4EDD;
+}
+.header_main_buttons_work a{
+	border: 2px solid #4A4EDD;
+	color: #4A4EDD;
+	background-color: white;
+}
+.main_hire_post {
+	display: flex;
+	flex-direction: column;
+}
+.main_second_block h2{
+display: flex;
+justify-content: center;
+}
+.main_second_block div{
+	display: flex;
+	justify-content: center;
+}
+.main_line_post, .main_line_applied, .main_line_assigned,
+.main_line_jobs, .main_line_applied2, .main_line_assigned2{
+	width: 210px;
+	height: 2px;
+	background-color: #9e9d9b;
+}
+.main_hire_post_button img{
+	margin-right: 10px;
+	margin-bottom: 30px;
+}
+.main_hire_post:hover .main_line_post{
+	background-color: #7796fe;
+}
+.main_hire_post_button:hover .button_post{
+	color: #7796fe;
+}
+.main_hire_post:hover .main_line_applied{
+	background-color: #ffdede;
+}
+.main_hire_post_button:hover .button_applied{
+	color: #ffdede;
+}
+.main_hire_post:hover .main_line_assigned{
+	background-color: #daeddb;
+}
+.main_hire_post_button:hover .button_assigned{
+	color: #daeddb;
+}
+.main_hire_post:hover .main_line_jobs{
+	background-color: #fb1488;
+}
+.main_hire_post_button:hover .button_jobs{
+	color: #fb1488;
+}
+.main_hire_post:hover .main_line_applied2{
+	background-color: #cbf6f9;
+}
+.main_hire_post_button:hover .button_applied2{
+	color: #cbf6f9;
+}
+.main_hire_post:hover .main_line_assigned2{
+	background-color: #cecbd8;
+}
+.main_hire_post_button:hover .button_assigned2{
+	color: #cecbd8;
+}
+.main_second_block a{
+	color:black;
+}
+.main_third_block{
+	display: flex;
+}
+.third_text {
+  position: relative;
+  right: 725px;
+  color: white;
+}
+.third_text p{
+  width: 700px;
+  line-height: 31px;
+}
+.third_text h2{
+  margin-top: 50px;
+}
+.main_second_block_main {
+  margin-bottom: 100px;
+}
+.third_woman img{
+position: relative;
+right: 121%;
+top: -5%;
+z-index: -1;
+}
+
+.fourth_block {
+  display: flex;
+}
+
+
+.fourth_fon > img:nth-child(1) {
+  margin-top: 100px;
+  margin-right: 100px;
+}
+
+
+.fourth_text {
+  position: relative;
+  line-height: 31px;
+  margin-top: 217px;
+  right: 700px;
+  color: white;
+
+}
+
+.fourth_text > p:nth-child(2) {
+  width: 550px;
+}
+.fifth_block {
+  display: flex;
+}
+.fifth_text {
+  position: relative;
+  right: 646px;
+  margin-top: 56px;
+  line-height: 31px;
+  color: white;
+}
+.fifth_text > p:nth-child(2) {
+  width: 500px;
+}
+.fifth_woman {
+  position: relative;
+  right: 550px;
+  z-index: -1;
+}
+.sixth_block {
+  display: flex;
+}
+.sixth_fon {
+  margin-top: 90px;
+  margin-left: 20px;
+}
+.sixth_text {
+  position: relative;
+  margin-top: 193px;
+  right: 586px;
+  line-height: 31px;
+  color: white;
+}
+.sixth_text > p:nth-child(2) {
+  width: 500px;
+}
+
+/* Элемент | file:///G:/NextCloud/Projects/test3/index.html */
+
+.seventh_block_subscribe {
+  display: flex;
+  justify-content: center;
+}
+
+/* Элемент | file:///G:/NextCloud/Projects/test3/index.html */
+
+.seventh_block_subscribe > input:nth-child(1) {
+  border: 1px solid #f0f0f0;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  width: 900px;
+}
+
+/* Элемент | file:///G:/NextCloud/Projects/test3/index.html */
+
+.button_subscribe {
+  display: flex;
+  color: white;
+  background-color: #130242;
+  border: 1px solid #130242;
+  border-radius: 8px;
+}
+
+/* Элемент | file:///G:/NextCloud/Projects/test3/index.html */
+
+.seventh_block > p:nth-child(2) {
+  width: 500px;
+  line-height: 31px;
+}
+
+/* Элемент | file:///G:/NextCloud/Projects/test3/index.html */
+
+.seventh_block {
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Элемент | file:///G:/NextCloud/Projects/test3/index.html */
+
+.seventh_text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+/* Элемент | file:///G:/NextCloud/Projects/test3/index.html */
+
+.seventh_text > p:nth-child(2) {
+  width: 500px;
+  margin: 0 auto;
+  line-height: 31px;
+}
+
+/* Элемент | file:///G:/NextCloud/Projects/test3/index.html */
+
+.button_subscribe > p:nth-child(1) {
+  padding: 10px 40px;
+}
+
+/* Элемент | file:///G:/NextCloud/Projects/test3/index.html */
+
+.button_subscribe > img:nth-child(2) {
+  margin-left: ;
+}
+.button_subscribe > p:nth-child(1) {
+	padding-right: 0px;
+}
+.button_subscribe > img:nth-child(2) {
+	padding-right: 40px;
+}
+.footer_up{
+	display: flex;
+	justify-content: space-between;
+}
+.footer_up span{
+	font-size: 24px;
+	margin-bottom: 40px;
+}
+.footer_quick, .footer_legal, .footer_social{
+	display: flex;
+	flex-direction: column;
+}
+.footer_up a, .footer_up div{
+	margin-bottom: 10px;
+	color: black;
+}
+.social_facebook > img:nth-child(1){
+	margin-right: 7px;
+}
+.footer_photo img{
+	width: 100%;
+}
+@media(max-width: 1140px){
+	.container{
+		margin: 0 10px;
+	}
+	.sixth_woman, .woman_fourth, .fifth_woman, .third_woman{
+		display: none;
+	}
+}
