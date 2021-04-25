@@ -26,6 +26,7 @@
 .header_main{
 	margin-bottom: 144px;
 }
+
 *{
 	font-family: verdana;
 	font-weight: bold;
@@ -46,9 +47,12 @@ a{
 	margin-top: 56px;
 	margin-bottom: 63px;
 }
-.header_sign_up div{
+.header_button_sign_up{
 	padding-left: 40px;
 	margin: auto 0;	
+}
+.header_button_sign_in {
+margin: auto 0;
 }
 .header_sign_up a{
 	border: 1px solid white;
@@ -63,7 +67,7 @@ a{
 	color: white;
 	background-color: #7F83FF;
 }
-.header_main_menu div{
+.header_main_buttons_work{
 	padding-left: 40px;
 }
 .header_main_menu a{
@@ -239,7 +243,8 @@ z-index: -1;
   border: 1px solid #f0f0f0;
   background-color: #f0f0f0;
   border-radius: 8px;
-  width: 900px;
+  max-width: 900px;
+	width: 100%;
 }
 
 /* Элемент | file:///G:/NextCloud/Projects/test3/index.html */
@@ -278,7 +283,7 @@ z-index: -1;
 /* Элемент | file:///G:/NextCloud/Projects/test3/index.html */
 
 .seventh_text > p:nth-child(2) {
-  width: 500px;
+  max-width: 500px;
   margin: 0 auto;
   line-height: 31px;
 }
@@ -329,4 +334,118 @@ z-index: -1;
 	.sixth_woman, .woman_fourth, .fifth_woman, .third_woman{
 		display: none;
 	}
+	
+}
+@media(max-width: 750px){
+	.third_fon {
+		display: none;
+	}
+	.third_text {
+		right: 0px;
+		background-color: #7796fe;
+		border: 1px solid #7796fe;
+		border-radius: 8px;
+		padding: 20px;
+	}
+	.third_text h2 {
+		margin-top: 19.92px;
+	}
+	.third_text p{
+		max-width: 700px;
+		width: 100%;
+	}
+	.main_second_block div {
+		width: 100%;
+	}
+	.footer_up {
+		justify-content: space-between;
+		flex-direction: column;
+	}
+	.footer_up>div{
+		margin: 20px auto;
+	}
+	.footer_social {
+		padding-right: 30px;
+	}
+	.fourth_fon {
+		display: none;
+	}
+	.fourth_text {
+		margin-top: 100px;
+		margin-bottom: 100px;
+		background-color: #ff865b;
+		padding: 10px;
+		right: 0px;
+		border: 1px solid #ff865b;
+		border-radius: 8px;
+		width: 100%;
+	}
+	.fourth_text > p:nth-child(2) {
+		max-width: 550px;
+		width: 100%;
+	}
+	.fifth_fon {
+		display: none;
+	}
+	.fifth_text {
+		margin-top: 0px;
+		right: 0px;
+		background-color: #8937dc;
+		width: 100%;
+		border: 1px solid #8937dc;
+		border-radius: 8px;
+		padding: 10px;
+	}
+	.fifth_text > p:nth-child(2) {
+		max-width: 500px;
+		width: 100%;
+	}
+	.sixth_fon {
+		display: none;
+	}
+	.sixth_text {
+right: 0px;
+background-color: #7cca84;
+width: 100%;
+border: 1px solid #7cca84;
+border-radius: 8px;
+padding: 10px;
+margin-top: 100px;
+margin-bottom: 100px;
+}
+.sixth_text > p:nth-child(2) {
+max-width: 500px;
+width: 100%;
+}
+}
+@media(max-width: 540px){
+	
+	.header_up {
+  		display: flex;
+  		flex-direction: column;
+		}
+	.header_logo {
+ 		margin: 0px auto 50px;
+	}
+	.header_sign_up {
+		margin: 0 auto;
+	}
+}
+@media(max-width: 400px){
+
+/* style.css | file:///G:/NextCloud/Projects/test3/css/style.css */
+
+.seventh_block_subscribe {
+  /* justify-content: center; */
+  flex-direction: column;
+}
+
+.seventh_block_subscribe > input:nth-child(1) {
+  height: 70px;
+}
+
+.button_subscribe {
+  width: 100%;
+}
+
 }
