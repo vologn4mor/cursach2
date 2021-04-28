@@ -1,4 +1,4 @@
-.container{
+.container, .container_header{
 	max-width: 1144px;
 	margin: 0 auto;
 }
@@ -12,12 +12,7 @@ header {
   width: 100%;
 }
 
-/* style.css | file:///G:/NextCloud/Projects/test3%20%E2%80%94%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/css/style.css */
 
-.header_up {
-  /* margin-top: 56px; */
-  /* margin-bottom: 63px; */
-}
 
 header {
   z-index: 5;
@@ -25,23 +20,13 @@ header {
 
 /* Элемент | file:///G:/NextCloud/Projects/test3%20%E2%80%94%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/index.html */
 
-.header_up {
-  max-width: 1140px;
-  width: 100%;
-}
-
-/* Элемент | file:///G:/NextCloud/Projects/test3%20%E2%80%94%20%D0%BA%D0%BE%D0%BF%D0%B8%D1%8F/index.html */
-
-/*body > div:nth-child(1) > header:nth-child(1) {
-  max-width: 1440px;
-  width: 100%;
-}*/
 
 .header_up{
 	display: flex;
   justify-content: space-between;
 max-width: 1144px;
 	width: 100%; 
+	padding-top: 10px;
 }
 
 .header_sign_up {
@@ -361,7 +346,7 @@ z-index: -1;
 	width: 100%;
 }
 @media(max-width: 1140px){
-	.container{
+	.container, .container_header{
 		margin: 0 10px;
 	}
 	.header_up{
@@ -454,13 +439,16 @@ max-width: 500px;
 width: 100%;
 }
 }
-@media(max-width: 540px){	
+@media(max-width: 540px){
+.container_header{
+	margin: 0 0;
+}	
 	.header_up {
   		display: flex;
   		flex-direction: column;
 		}
 	.header_logo {
- 		margin: 0px auto 50px;
+ 		margin: 10px auto 50px;
 	}
 	.header_sign_up {
 		margin: 0 auto;
